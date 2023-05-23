@@ -21,6 +21,7 @@ Rhombus::Rhombus()
 /// @param dV  Vertical diagonal
 Rhombus::Rhombus(float dH, float dV)
 {
+	Init();
 	SetDiagH(dH);
 	SetDiagV(dV);
 	cout << "Rhombus param constructor - invoked" << endl;
@@ -64,7 +65,7 @@ bool Rhombus::operator==(const Rhombus& r)
 void Rhombus::Init()
 {
 	diagH = 1;
-	diagV = 1;
+diagV = 1;
 }
 
 /// @brief Copy object initializer

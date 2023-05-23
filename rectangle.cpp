@@ -89,7 +89,7 @@ void Rectangle::SetLength(int l) {
 /// @param w width in pixels
 /// @param l length in pixels
 void Rectangle::SetDim(int w, int l) {
-	
+
 	SetWidth(w);
 	SetLength(w);
 }
