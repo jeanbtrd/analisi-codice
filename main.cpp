@@ -29,6 +29,7 @@ int main()
 	cout << "SetTopSide" << " -------------------- " << endl;
 	cout << "Give it a negative value, get an error:" << endl;
 	it.SetTopSide( -30. );
+	it.Dump();
 	cout << "\nGive it a positive value, all good:" << endl;
 	it.SetTopSide( 2147.435432 );
 	it.Dump();
@@ -38,6 +39,7 @@ int main()
 	cout << "SetBottomSide" << " -------------------- " << endl;
 	cout << "Give it a negative value, get an error:" << endl;
 	it.SetBottomSide( -30. );
+	it.Dump();
 	cout << "\nGive it a positive value, all good:" << endl;
 	it.SetBottomSide( 2147.435432 );
 	it.Dump();
@@ -47,6 +49,7 @@ int main()
 	cout << "SetHeight" << " -------------------- " << endl;
 	cout << "Give it a negative value, get an error:" << endl;
 	it.SetHeight( -30. );
+	it.Dump();
 	cout << "\nGive it a positive value, all good:" << endl;
 	it.SetHeight( 1111.435432 );
 	it.Dump();
@@ -54,8 +57,20 @@ int main()
 
 	cout << "TEST:\t" << " -------------------- ";
 	cout << "SetParams" << " -------------------- " << endl;
-	cout << "Give it negative values, get an error:" << endl;
+	cout << "Give it all negative values, get an error:" << endl;
 	it.SetParams( -30.3, -3.5, -66.7 );
+	it.Dump();
+	cout << "Give it positive and negative values:" << endl;
+	it.SetParams( -11.1, 22.2, 33.3 );
+	it.Dump();
+	it.SetParams( 44.4, -55.5, -66.6 );
+	it.Dump();
+	it.SetParams( 77.7, -88.8, 99.9 );
+	it.Dump();
+	it.SetParams( 1010.10, 1111.11, -1212.12 );
+	it.Dump();
+	it.SetParams( -1313.13, -1414.14, 1515.15 );
+	it.Dump();
 	cout << "\nGive it positive values, all good:" << endl;
 	it.SetParams( 2147.435432, 45.2, 11.2 );
 	it.Dump();
