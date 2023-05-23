@@ -48,7 +48,7 @@ int main()
 	cout << "Give it a negative value, get an error:" << endl;
 	it.SetHeight( -30. );
 	cout << "\nGive it a positive value, all good:" << endl;
-	it.SetHeight( 2147.435432 );
+	it.SetHeight( 1111.435432 );
 	it.Dump();
 	cout << endl;
 
