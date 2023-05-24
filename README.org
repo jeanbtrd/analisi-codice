@@ -1,0 +1,10 @@
+#+title: Analisi
+#+auto_tangle: t
+# Local variables:
+# eval: (add-hook 'after-save-hook 'org-md-export-to-markdown t t)
+# end:
+
+
+Questa repo è un' analisi di [[https://github.com/Matteocaroleo/IsoTrapezoid][quest'altro progetto]].
+
+Le informazioni dettagliate su considerazioni e test fatti sono contenute in [[https://github.com/jeanbtrd/analisi-codice/blob/main/Form%20Esercitazione.odt][questo file]].
