@@ -8,4 +8,4 @@
 
 Questa repository è un' analisi di [[https://github.com/Matteocaroleo/IsoTrapezoid][quest'altro progetto]].
 
-Il [[https://github.com/jeanbtrd/analisi-codice/blob/main/main.cpp][main]] contiene la routine di test che ho utilizzato, il file odt contiene le considerazioni fatte (l' analisi): [[https://github.com/jeanbtrd/analisi-codice/raw/main/Form%20Esercitazione.odt][download]]
+Il [[https://github.com/jeanbtrd/analisi-codice/blob/main/main.cpp][main]] contiene i test fatti, il file odt le considerazioni (l' analisi): [[https://github.com/jeanbtrd/analisi-codice/raw/main/Form%20Esercitazione.odt][download]]
