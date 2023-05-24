@@ -8,4 +8,6 @@
 
 Questa repo è un' analisi di [[https://github.com/Matteocaroleo/IsoTrapezoid][quest'altro progetto]].
 
-Le informazioni dettagliate su considerazioni e test fatti sono contenute in [[https://github.com/jeanbtrd/analisi-codice/blob/main/Form%20Esercitazione.odt][questo file]].
+Le informazioni dettagliate su considerazioni e test fatti sono contenute nel documento word presente in questa repo:
+
+[[https://github.com/jeanbtrd/analisi-codice/raw/main/Form%20Esercitazione.odt][download]]
