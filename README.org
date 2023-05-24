@@ -5,7 +5,6 @@
 # end:
 #+OPTIONS: toc:nil
 
-* Analisi
 
 Questa repo è un' analisi di [[https://github.com/Matteocaroleo/IsoTrapezoid][quest'altro progetto]].
 
