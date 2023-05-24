@@ -1,11 +1,4 @@
 
-# Table of Contents
-
-1.  [Analisi](#orgd6df2e3)
-
-
-
-<a id="orgd6df2e3"></a>
 
 # Analisi
 
